@@ -1,4 +1,4 @@
-# claude-relocate
+# Claude-Relocate
 
 `Move-ClaudeData.ps1` is a PowerShell script to move the Claude desktop app data (`%APPDATA%\Claude`, often 10+ GB) from `C:` to any drive or folder. It copies the data, leaves a junction at the original path so Claude keeps working, clears caches, and keeps a backup until you confirm.
 
